@@ -70,7 +70,7 @@ public class CreateTextFileGUI extends JFrame {
                 output = new Formatter("clientes.txt");
                 displayArea.append("Arquivo Aberto.\n");
             } catch (SecurityException securityException) {
-                JOptionPane.showMessageDialog(this, "You do not have write access to this file.",
+                JOptionPane.showMessageDialog(this, "Você não tem acesso de gravação a este arquivo.",
                     "Error", JOptionPane.ERROR_MESSAGE);
                     System.exit(1);
             } catch (FileNotFoundException fileNotFoundException) {
